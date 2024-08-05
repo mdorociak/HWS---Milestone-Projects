@@ -1,0 +1,635 @@
+{
+    "countries": [
+        {
+            "name": "United States",
+            "population": 331002651,
+            "size_km2": 9833517,
+            "capital": "Washington, D.C.",
+            "official_language": "English",
+            "funFact": "The U.S. has no official national language.",
+            "flag": "https://flagsapi.com/US/flat/64.png"
+        },
+        {
+            "name": "Canada",
+            "population": 37742154,
+            "size_km2": 9984670,
+            "capital": "Ottawa",
+            "official_language": "English, French",
+            "funFact": "Canada has the longest coastline of any country in the world.",
+            "flag": "https://flagsapi.com/CA/flat/64.png"
+        },
+        {
+            "name": "Germany",
+            "population": 83783942,
+            "size_km2": 357022,
+            "capital": "Berlin",
+            "official_language": "German",
+            "funFact": "Germany is known for having over 1,500 types of beer.",
+            "flag": "https://flagsapi.com/DE/flat/64.png"
+        },
+        {
+            "name": "Japan",
+            "population": 126476461,
+            "size_km2": 377975,
+            "capital": "Tokyo",
+            "official_language": "Japanese",
+            "funFact": "Japan is made up of over 6,800 islands.",
+            "flag": "https://flagsapi.com/JP/flat/64.png"
+        },
+        {
+            "name": "Australia",
+            "population": 25499884,
+            "size_km2": 7692024,
+            "capital": "Canberra",
+            "official_language": "English",
+            "funFact": "Australia has more kangaroos than people.",
+            "flag": "https://flagsapi.com/AU/flat/64.png"
+        },
+        {
+            "name": "Brazil",
+            "population": 212559417,
+            "size_km2": 8515767,
+            "capital": "Brasília",
+            "official_language": "Portuguese",
+            "funFact": "Brazil is the largest country in South America.",
+            "flag": "https://flagsapi.com/BR/flat/64.png"
+        },
+        {
+            "name": "India",
+            "population": 1380004385,
+            "size_km2": 3287263,
+            "capital": "New Delhi",
+            "official_language": "Hindi, English",
+            "funFact": "India is the second most populous country in the world.",
+            "flag": "https://flagsapi.com/IN/flat/64.png"
+        },
+        {
+            "name": "China",
+            "population": 1439323776,
+            "size_km2": 9596961,
+            "capital": "Beijing",
+            "official_language": "Mandarin",
+            "funFact": "China has the largest population in the world.",
+            "flag": "https://flagsapi.com/CN/flat/64.png"
+        },
+        {
+            "name": "United Kingdom",
+            "population": 67886011,
+            "size_km2": 243610,
+            "capital": "London",
+            "official_language": "English",
+            "funFact": "The British Museum in London has a collection of over 8 million objects.",
+            "flag": "https://flagsapi.com/GB/flat/64.png"
+        },
+        {
+            "name": "France",
+            "population": 65273511,
+            "size_km2": 551695,
+            "capital": "Paris",
+            "official_language": "French",
+            "funFact": "France is the most visited country in the world.",
+            "flag": "https://flagsapi.com/FR/flat/64.png"
+        },
+        {
+            "name": "Italy",
+            "population": 60461826,
+            "size_km2": 301340,
+            "capital": "Rome",
+            "official_language": "Italian",
+            "funFact": "Italy is home to the largest number of UNESCO World Heritage Sites.",
+            "flag": "https://flagsapi.com/IT/flat/64.png"
+        },
+        {
+            "name": "Russia",
+            "population": 145934462,
+            "size_km2": 17098242,
+            "capital": "Moscow",
+            "official_language": "Russian",
+            "funFact": "Russia is the largest country in the world by land area.",
+            "flag": "https://flagsapi.com/RU/flat/64.png"
+        },
+        {
+            "name": "Mexico",
+            "population": 128932753,
+            "size_km2": 1964375,
+            "capital": "Mexico City",
+            "official_language": "Spanish",
+            "funFact": "Mexico introduced chocolate to the world.",
+            "flag": "https://flagsapi.com/MX/flat/64.png"
+        },
+        {
+            "name": "South Africa",
+            "population": 59308690,
+            "size_km2": 1221037,
+            "capital": "Pretoria (administrative), Bloemfontein (judicial), Cape Town (legislative)",
+            "official_language": "11 official languages including English, Afrikaans, Zulu, Xhosa",
+            "funFact": "South Africa has three capital cities, each serving a different purpose.",
+            "flag": "https://flagsapi.com/ZA/flat/64.png"
+        },
+        {
+            "name": "Argentina",
+            "population": 45195774,
+            "size_km2": 2780400,
+            "capital": "Buenos Aires",
+            "official_language": "Spanish",
+            "funFact": "Argentina is the birthplace of the tango.",
+            "flag": "https://flagsapi.com/AR/flat/64.png"
+        },
+        {
+            "name": "Spain",
+            "population": 46754778,
+            "size_km2": 505992,
+            "capital": "Madrid",
+            "official_language": "Spanish",
+            "funFact": "Spain has more bars per capita than any other country in the European Union.",
+            "flag": "https://flagsapi.com/ES/flat/64.png"
+        },
+        {
+            "name": "South Korea",
+            "population": 51269185,
+            "size_km2": 100210,
+            "capital": "Seoul",
+            "official_language": "Korean",
+            "funFact": "South Korea is the world leader in internet connectivity.",
+            "flag": "https://flagsapi.com/KR/flat/64.png"
+        },
+        {
+            "name": "Turkey",
+            "population": 84339067,
+            "size_km2": 783356,
+            "capital": "Ankara",
+            "official_language": "Turkish",
+            "funFact": "Turkey is the only country that spans two continents: Europe and Asia.",
+            "flag": "https://flagsapi.com/TR/flat/64.png"
+        },
+        {
+            "name": "Colombia",
+            "population": 50882891,
+            "size_km2": 1141748,
+            "capital": "Bogotá",
+            "official_language": "Spanish",
+            "funFact": "Colombia is the world's leading source of emeralds.",
+            "flag": "https://flagsapi.com/CO/flat/64.png"
+        },
+        {
+            "name": "Ethiopia",
+            "population": 114963588,
+            "size_km2": 1104300,
+            "capital": "Addis Ababa",
+            "official_language": "Amharic",
+            "funFact": "Ethiopia is the only African country with its own alphabet.",
+            "flag": "https://flagsapi.com/ET/flat/64.png"
+        },
+        {
+            "name": "Chile",
+            "population": 19116201,
+            "size_km2": 756102,
+            "capital": "Santiago",
+            "official_language": "Spanish",
+            "funFact": "Chile is home to the world's driest desert, the Atacama Desert.",
+            "flag": "https://flagsapi.com/CL/flat/64.png"
+        },
+        {
+            "name": "Kenya",
+            "population": 53771296,
+            "size_km2": 580367,
+            "capital": "Nairobi",
+            "official_language": "English, Swahili",
+            "funFact": "Kenya is famous for its long-distance runners.",
+            "flag": "https://flagsapi.com/KE/flat/64.png"
+        },
+        {
+            "name": "Poland",
+            "population": 38386000,
+            "size_km2": 312696,
+            "capital": "Warsaw",
+            "official_language": "Polish",
+            "funFact": "Poland has the largest castle in the world (Malbork Castle).",
+            "flag": "https://flagsapi.com/PL/flat/64.png"
+        },
+        {
+            "name": "Nigeria",
+            "population": 206139589,
+            "size_km2": 923768,
+            "capital": "Abuja",
+            "official_language": "English",
+            "funFact": "Nigeria is the most populous country in Africa.",
+            "flag": "https://flagsapi.com/NG/flat/64.png"
+        },
+        {
+            "name": "Saudi Arabia",
+            "population": 34813867,
+            "size_km2": 2149690,
+            "capital": "Riyadh",
+            "official_language": "Arabic",
+            "funFact": "Saudi Arabia is the world's largest oil exporter.",
+            "flag": "https://flagsapi.com/SA/flat/64.png"
+        },
+        {
+            "name": "Sweden",
+            "population": 10099270,
+            "size_km2": 450295,
+            "capital": "Stockholm",
+            "official_language": "Swedish",
+            "funFact": "Sweden is known for its high quality of life and innovation.",
+            "flag": "https://flagsapi.com/SE/flat/64.png"
+        },
+        {
+            "name": "Norway",
+            "population": 5421241,
+            "size_km2": 148729,
+            "capital": "Oslo",
+            "official_language": "Norwegian",
+            "funFact": "Norway is known for its stunning fjords.",
+            "flag": "https://flagsapi.com/NO/flat/64.png"
+        },
+        {
+            "name": "Finland",
+            "population": 5540720,
+            "size_km2": 338455,
+            "capital": "Helsinki",
+            "official_language": "Finnish, Swedish",
+            "funFact": "Finland is known as the land of a thousand lakes, though it actually has around 188,000 lakes.",
+            "flag": "https://flagsapi.com/FI/flat/64.png"
+        },
+        {
+            "name": "Bangladesh",
+            "population": 164689383,
+            "size_km2": 147570,
+            "capital": "Dhaka",
+            "official_language": "Bengali",
+            "funFact": "Bangladesh is the most densely populated country in the world.",
+            "flag": "https://flagsapi.com/BD/flat/64.png"
+        },
+        {
+            "name": "Pakistan",
+            "population": 220892340,
+            "size_km2": 881912,
+            "capital": "Islamabad",
+            "official_language": "Urdu, English",
+            "funFact": "Pakistan is home to the second-highest peak in the world, K2.",
+            "flag": "https://flagsapi.com/PK/flat/64.png"
+        },
+        {
+            "name": "Egypt",
+            "population": 102334404,
+            "size_km2": 1002450,
+            "capital": "Cairo",
+            "official_language": "Arabic",
+            "funFact": "Egypt is famous for its ancient pyramids.",
+            "flag": "https://flagsapi.com/EG/flat/64.png"
+        },
+        {
+            "name": "Vietnam",
+            "population": 97338579,
+            "size_km2": 331212,
+            "capital": "Hanoi",
+            "official_language": "Vietnamese",
+            "funFact": "Vietnam is one of the world's largest producers of coffee.",
+            "flag": "https://flagsapi.com/VN/flat/64.png"
+        },
+        {
+            "name": "Thailand",
+            "population": 69799978,
+            "size_km2": 513120,
+            "capital": "Bangkok",
+            "official_language": "Thai",
+            "funFact": "Thailand is the only Southeast Asian country that was never colonized by a European power.",
+            "flag": "https://flagsapi.com/TH/flat/64.png"
+        },
+        {
+            "name": "Philippines",
+            "population": 109581078,
+            "size_km2": 300000,
+            "capital": "Manila",
+            "official_language": "Filipino, English",
+            "funFact": "The Philippines is made up of over 7,600 islands.",
+            "flag": "https://flagsapi.com/PH/flat/64.png"
+        },
+        {
+            "name": "Iran",
+            "population": 83992949,
+            "size_km2": 1648195,
+            "capital": "Tehran",
+            "official_language": "Persian",
+            "funFact": "Iran is one of the world's oldest civilizations, with historical and urban settlements dating back to 4000 BC.",
+            "flag": "https://flagsapi.com/IR/flat/64.png"
+        },
+        {
+            "name": "Venezuela",
+            "population": 28435940,
+            "size_km2": 916445,
+            "capital": "Caracas",
+            "official_language": "Spanish",
+            "funFact": "Venezuela is home to the world's highest uninterrupted waterfall, Angel Falls.",
+            "flag": "https://flagsapi.com/VE/flat/64.png"
+        },
+        {
+            "name": "Ukraine",
+            "population": 43733762,
+            "size_km2": 603628,
+            "capital": "Kyiv",
+            "official_language": "Ukrainian",
+            "funFact": "Ukraine is the largest country entirely in Europe.",
+            "flag": "https://flagsapi.com/UA/flat/64.png"
+        },
+        {
+            "name": "Iraq",
+            "population": 40222493,
+            "size_km2": 438317,
+            "capital": "Baghdad",
+            "official_language": "Arabic, Kurdish",
+            "funFact": "Iraq is often referred to as the cradle of civilization as it is home to some of the oldest human settlements.",
+            "flag": "https://flagsapi.com/IQ/flat/64.png"
+        },
+        {
+            "name": "Sudan",
+            "population": 43849260,
+            "size_km2": 1861484,
+            "capital": "Khartoum",
+            "official_language": "Arabic, English",
+            "funFact": "Sudan has more pyramids than Egypt.",
+            "flag": "https://flagsapi.com/SD/flat/64.png"
+        },
+        {
+            "name": "Peru",
+            "population": 32971854,
+            "size_km2": 1285216,
+            "capital": "Lima",
+            "official_language": "Spanish",
+            "funFact": "Peru is home to the ancient Inca city of Machu Picchu.",
+            "flag": "https://flagsapi.com/PE/flat/64.png"
+        },
+        {
+            "name": "Malaysia",
+            "population": 32365999,
+            "size_km2": 330803,
+            "capital": "Kuala Lumpur",
+            "official_language": "Malay",
+            "funFact": "Malaysia is known for its diverse ecosystems, from the beaches of Borneo to the mountains of the Malay Peninsula.",
+            "flag": "https://flagsapi.com/MY/flat/64.png"
+        },
+        {
+            "name": "Afghanistan",
+            "population": 38928346,
+            "size_km2": 652230,
+            "capital": "Kabul",
+            "official_language": "Dari, Pashto",
+            "funFact": "Afghanistan is known for its rugged mountains and ancient history.",
+            "flag": "https://flagsapi.com/AF/flat/64.png"
+        },
+        {
+            "name": "Morocco",
+            "population": 36910560,
+            "size_km2": 446550,
+            "capital": "Rabat",
+            "official_language": "Arabic, Berber",
+            "funFact": "Morocco is home to the Sahara Desert, the largest hot desert in the world.",
+            "flag": "https://flagsapi.com/MA/flat/64.png"
+        },
+        {
+            "name": "Angola",
+            "population": 32866272,
+            "size_km2": 1246700,
+            "capital": "Luanda",
+            "official_language": "Portuguese",
+            "funFact": "Angola is rich in natural resources, particularly oil and diamonds.",
+            "flag": "https://flagsapi.com/AO/flat/64.png"
+        },
+        {
+            "name": "Ghana",
+            "population": 31072940,
+            "size_km2": 238533,
+            "capital": "Accra",
+            "official_language": "English",
+            "funFact": "Ghana was the first African nation to gain independence from colonial rule in 1957.",
+            "flag": "https://flagsapi.com/GH/flat/64.png"
+        },
+        {
+            "name": "Yemen",
+            "population": 29825964,
+            "size_km2": 527968,
+            "capital": "Sana'a",
+            "official_language": "Arabic",
+            "funFact": "Yemen is home to the ancient city of Sana'a, one of the oldest continuously inhabited cities in the world.",
+            "flag": "https://flagsapi.com/YE/flat/64.png"
+        },
+        {
+            "name": "Uzbekistan",
+            "population": 33469203,
+            "size_km2": 447400,
+            "capital": "Tashkent",
+            "official_language": "Uzbek",
+            "funFact": "Uzbekistan is one of the only two doubly landlocked countries in the world.",
+            "flag": "https://flagsapi.com/UZ/flat/64.png"
+        },
+        {
+            "name": "Nepal",
+            "population": 29136808,
+            "size_km2": 147181,
+            "capital": "Kathmandu",
+            "official_language": "Nepali",
+            "funFact": "Nepal is home to Mount Everest, the world's highest peak.",
+            "flag": "https://flagsapi.com/NP/flat/64.png"
+        },
+        {
+            "name": "Mozambique",
+            "population": 31255435,
+            "size_km2": 801590,
+            "capital": "Maputo",
+            "official_language": "Portuguese",
+            "funFact": "Mozambique has some of the most beautiful coral reefs in the world.",
+            "flag": "https://flagsapi.com/MZ/flat/64.png"
+        },
+        {
+            "name": "Madagascar",
+            "population": 27691018,
+            "size_km2": 587041,
+            "capital": "Antananarivo",
+            "official_language": "Malagasy, French",
+            "funFact": "Madagascar is famous for its unique wildlife, 90% of which is found nowhere else on Earth.",
+            "flag": "https://flagsapi.com/MG/flat/64.png"
+        },
+        {
+            "name": "Ivory Coast",
+            "population": 26378274,
+            "size_km2": 322463,
+            "capital": "Yamoussoukro",
+            "official_language": "French",
+            "funFact": "Ivory Coast is the world's largest producer of cocoa beans.",
+            "flag": "https://flagsapi.com/CI/flat/64.png"
+        },
+        {
+            "name": "North Korea",
+            "population": 25778816,
+            "size_km2": 120538,
+            "capital": "Pyongyang",
+            "official_language": "Korean",
+            "funFact": "North Korea is one of the most secretive countries in the world.",
+            "flag": "https://flagsapi.com/KP/flat/64.png"
+        },
+        {
+            "name": "Sri Lanka",
+            "population": 21413249,
+            "size_km2": 65610,
+            "capital": "Sri Jayawardenepura Kotte",
+            "official_language": "Sinhala, Tamil",
+            "funFact": "Sri Lanka is known as the 'Pearl of the Indian Ocean' due to its shape and location.",
+            "flag": "https://flagsapi.com/LK/flat/64.png"
+        },
+        {
+            "name": "Romania",
+            "population": 19237691,
+            "size_km2": 238397,
+            "capital": "Bucharest",
+            "official_language": "Romanian",
+            "funFact": "Romania is home to the world's heaviest building, the Palace of the Parliament.",
+            "flag": "https://flagsapi.com/RO/flat/64.png"
+        },
+        {
+            "name": "Kazakhstan",
+            "population": 18776707,
+            "size_km2": 2724900,
+            "capital": "Nur-Sultan",
+            "official_language": "Kazakh, Russian",
+            "funFact": "Kazakhstan is the largest landlocked country in the world.",
+            "flag": "https://flagsapi.com/KZ/flat/64.png"
+        },
+        {
+            "name": "Syria",
+            "population": 17500658,
+            "size_km2": 185180,
+            "capital": "Damascus",
+            "official_language": "Arabic",
+            "funFact": "Syria is home to one of the oldest continuously inhabited cities in the world, Damascus.",
+            "flag": "https://flagsapi.com/SY/flat/64.png"
+        },
+        {
+            "name": "Cameroon",
+            "population": 26545863,
+            "size_km2": 475442,
+            "capital": "Yaoundé",
+            "official_language": "French, English",
+            "funFact": "Cameroon is known as 'Africa in miniature' because it exhibits all the major climates and vegetation of the continent.",
+            "flag": "https://flagsapi.com/CM/flat/64.png"
+        },
+        {
+            "name": "Niger",
+            "population": 24206644,
+            "size_km2": 1267000,
+            "capital": "Niamey",
+            "official_language": "French",
+            "funFact": "Niger is one of the hottest countries in the world.",
+            "flag": "https://flagsapi.com/NE/flat/64.png"
+        },
+        {
+            "name": "Netherlands",
+            "population": 17134872,
+            "size_km2": 41543,
+            "capital": "Amsterdam",
+            "official_language": "Dutch",
+            "funFact": "The Netherlands is known for its windmills, tulips, and canals.",
+            "flag": "https://flagsapi.com/NL/flat/64.png"
+        },
+        {
+            "name": "Mali",
+            "population": 20250833,
+            "size_km2": 1240192,
+            "capital": "Bamako",
+            "official_language": "French",
+            "funFact": "Mali was home to the ancient empire of Mali, known for its wealth and the famous city of Timbuktu.",
+            "flag": "https://flagsapi.com/ML/flat/64.png"
+        },
+        {
+            "name": "Burkina Faso",
+            "population": 20903273,
+            "size_km2": 272967,
+            "capital": "Ouagadougou",
+            "official_language": "French",
+            "funFact": "Burkina Faso hosts the International Arts and Crafts Fair, one of Africa's most important cultural events.",
+            "flag": "https://flagsapi.com/BF/flat/64.png"
+        },
+        {
+            "name": "Gabon",
+            "population": 2225734,
+            "size_km2": 267668,
+            "capital": "Libreville",
+            "official_language": "French",
+            "funFact": "Gabon is home to some of the oldest rainforests in Africa.",
+            "flag": "https://flagsapi.com/GA/flat/64.png"
+        },
+        {
+            "name": "Zambia",
+            "population": 18383955,
+            "size_km2": 752612,
+            "capital": "Lusaka",
+            "official_language": "English",
+            "funFact": "Zambia is home to Victoria Falls, one of the largest and most famous waterfalls in the world.",
+            "flag": "https://flagsapi.com/ZM/flat/64.png"
+        },
+        {
+            "name": "Zimbabwe",
+            "population": 14862924,
+            "size_km2": 390757,
+            "capital": "Harare",
+            "official_language": "English, Shona, Sindebele",
+            "funFact": "Zimbabwe is known for its incredible wildlife and national parks.",
+            "flag": "https://flagsapi.com/ZW/flat/64.png"
+        },
+        {
+            "name": "Chad",
+            "population": 16425864,
+            "size_km2": 1284000,
+            "capital": "N'Djamena",
+            "official_language": "French, Arabic",
+            "funFact": "Chad is named after Lake Chad, which is the largest wetland in Chad and the second-largest in Africa.",
+            "flag": "https://flagsapi.com/TD/flat/64.png"
+        },
+        {
+            "name": "South Sudan",
+            "population": 11193725,
+            "size_km2": 619745,
+            "capital": "Juba",
+            "official_language": "English",
+            "funFact": "South Sudan is the youngest country in the world, gaining independence in 2011.",
+            "flag": "https://flagsapi.com/SS/flat/64.png"
+        },
+        {
+            "name": "Somalia",
+            "population": 15893222,
+            "size_km2": 637657,
+            "capital": "Mogadishu",
+            "official_language": "Somali, Arabic",
+            "funFact": "Somalia has the longest coastline on Africa's mainland.",
+            "flag": "https://flagsapi.com/SO/flat/64.png"
+        },
+        {
+            "name": "Cuba",
+            "population": 11326616,
+            "size_km2": 109884,
+            "capital": "Havana",
+            "official_language": "Spanish",
+            "funFact": "Cuba is known for its classic cars and cigars.",
+            "flag": "https://flagsapi.com/CU/flat/64.png"
+        },
+        {
+            "name": "Jordan",
+            "population": 10203140,
+            "size_km2": 89342,
+            "capital": "Amman",
+            "official_language": "Arabic",
+            "funFact": "Jordan is home to the ancient city of Petra, one of the New Seven Wonders of the World.",
+            "flag": "https://flagsapi.com/JO/flat/64.png"
+        },
+        {
+            "name": "Honduras",
+            "population": 9904607,
+            "size_km2": 112492,
+            "capital": "Tegucigalpa",
+            "official_language": "Spanish",
+            "funFact": "Honduras is known for its rich Mayan history and beautiful Caribbean beaches.",
+            "flag": "https://flagsapi.com/HN/flat/64.png"
+        }
+    ]
+}
+
